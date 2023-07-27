@@ -1,1 +1,27 @@
 https://betterprogramming.pub/build-a-command-line-tool-with-rust-to-play-guitar-chords-d07df7b330b6
+
+
+
+NOTES : rust
+
+
+void main (int a, int b) {
+  } -- in C
+
+fn main(a: int, b: int) -> void {
+} -- in Rust
+
+Example 
+fn add (a: int, b: int) -> int {
+  return a+b;
+}
+add(2, 3);
+
+Rust doesn't have garbage collector. ownership, borrowing, lifetimes are three main concepts in it.
+- any variable can be stored in stack or heap
+- if a variable size is known upfront, it will be stored in stack
+- so int will be stored in stack
+- cargo - build tool for Rust
+- cargo.toml, which is where all the dependencies are defined for Rust, [Cargo run, ]
+
+
